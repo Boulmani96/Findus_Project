@@ -1,0 +1,515 @@
+{
+  "fields": [
+    {
+      "name": "_id",
+      "path": "_id",
+      "count": 5,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "_id",
+          "count": 5,
+          "values": [
+            "61fd628e13d06d33b386bc0b",
+            "61fd628d13d06d33b386bc02",
+            "61fd629313d06d33b386bc26",
+            "61fd628e13d06d33b386bc10",
+            "61fd628c13d06d33b386bbfa"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 5,
+          "has_duplicates": false
+        }
+      ],
+      "total_count": 5,
+      "type": "String",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "age",
+      "path": "age",
+      "count": 5,
+      "types": [
+        {
+          "name": "Int32",
+          "bsonType": "Int32",
+          "path": "age",
+          "count": 5,
+          "values": [
+            20,
+            15,
+            10,
+            10,
+            10
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 3,
+          "has_duplicates": true
+        }
+      ],
+      "total_count": 5,
+      "type": "Int32",
+      "has_duplicates": true,
+      "probability": 1
+    },
+    {
+      "name": "animalBreed",
+      "path": "animalBreed",
+      "count": 5,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "animalBreed",
+          "count": 5,
+          "values": [
+            "Beagle",
+            "Labrador",
+            "Beagle",
+            "Beagle",
+            "Beagle"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 2,
+          "has_duplicates": true
+        }
+      ],
+      "total_count": 5,
+      "type": "String",
+      "has_duplicates": true,
+      "probability": 1
+    },
+    {
+      "name": "birthDate",
+      "path": "birthDate",
+      "count": 5,
+      "types": [
+        {
+          "name": "Date",
+          "bsonType": "Date",
+          "path": "birthDate",
+          "count": 5,
+          "values": [
+            "2000-12-31T00:00:00.000Z",
+            "2010-01-08T00:00:00.000Z",
+            "2010-01-08T00:00:00.000Z",
+            "2010-01-08T00:00:00.000Z",
+            "2010-01-08T00:00:00.000Z"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 2,
+          "has_duplicates": true
+        }
+      ],
+      "total_count": 5,
+      "type": "Date",
+      "has_duplicates": true,
+      "probability": 1
+    },
+    {
+      "name": "bodyMarker",
+      "path": "bodyMarker",
+      "count": 5,
+      "types": [
+        {
+          "name": "Array",
+          "bsonType": "Array",
+          "path": "bodyMarker",
+          "count": 5,
+          "types": [
+            {
+              "name": "Null",
+              "bsonType": "Null",
+              "path": "bodyMarker",
+              "count": 11,
+              "total_count": 0,
+              "probability": 0.55,
+              "unique": 1,
+              "has_duplicates": true
+            },
+            {
+              "name": "String",
+              "bsonType": "String",
+              "path": "bodyMarker",
+              "count": 9,
+              "values": [
+                "PENDING",
+                "RED",
+                "PENDING",
+                "RED",
+                "PENDING",
+                "PENDING",
+                "RED",
+                "PENDING",
+                "RED"
+              ],
+              "total_count": 0,
+              "probability": 0.45,
+              "unique": 2,
+              "has_duplicates": true
+            }
+          ],
+          "lengths": [
+            4,
+            2,
+            6,
+            4,
+            4
+          ],
+          "total_count": 20,
+          "probability": 1,
+          "average_length": 4
+        }
+      ],
+      "total_count": 5,
+      "type": "Array",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "bodyPosture",
+      "path": "bodyPosture",
+      "count": 5,
+      "types": [
+        {
+          "name": "Null",
+          "bsonType": "Null",
+          "path": "bodyPosture",
+          "count": 5,
+          "total_count": 0,
+          "probability": 1,
+          "unique": 1,
+          "has_duplicates": true
+        }
+      ],
+      "total_count": 5,
+      "type": "Null",
+      "has_duplicates": true,
+      "probability": 1
+    },
+    {
+      "name": "breathMovement",
+      "path": "breathMovement",
+      "count": 5,
+      "types": [
+        {
+          "name": "Null",
+          "bsonType": "Null",
+          "path": "breathMovement",
+          "count": 5,
+          "total_count": 0,
+          "probability": 1,
+          "unique": 1,
+          "has_duplicates": true
+        }
+      ],
+      "total_count": 5,
+      "type": "Null",
+      "has_duplicates": true,
+      "probability": 1
+    },
+    {
+      "name": "examinationDate",
+      "path": "examinationDate",
+      "count": 5,
+      "types": [
+        {
+          "name": "Date",
+          "bsonType": "Date",
+          "path": "examinationDate",
+          "count": 5,
+          "values": [
+            "2100-01-01T00:00:00.000Z",
+            "2022-02-04T00:00:00.000Z",
+            "2022-02-04T00:00:00.000Z",
+            "2022-02-04T00:00:00.000Z",
+            "2022-02-04T00:00:00.000Z"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 2,
+          "has_duplicates": true
+        }
+      ],
+      "total_count": 5,
+      "type": "Date",
+      "has_duplicates": true,
+      "probability": 1
+    },
+    {
+      "name": "existingDisease",
+      "path": "existingDisease",
+      "count": 5,
+      "types": [
+        {
+          "name": "Array",
+          "bsonType": "Array",
+          "path": "existingDisease",
+          "count": 5,
+          "types": [
+            {
+              "name": "String",
+              "bsonType": "String",
+              "path": "existingDisease",
+              "count": 13,
+              "values": [
+                "asthma",
+                "broken leg",
+                "asthma",
+                "broken leg",
+                "some",
+                "disease",
+                "to",
+                "worry",
+                "about",
+                "asthma",
+                "broken leg",
+                "asthma",
+                "broken leg"
+              ],
+              "total_count": 0,
+              "probability": 1,
+              "unique": 7,
+              "has_duplicates": true
+            }
+          ],
+          "lengths": [
+            2,
+            0,
+            7,
+            2,
+            2
+          ],
+          "total_count": 13,
+          "probability": 1,
+          "average_length": 2.6
+        }
+      ],
+      "total_count": 5,
+      "type": "Array",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "movement",
+      "path": "movement",
+      "count": 5,
+      "types": [
+        {
+          "name": "Array",
+          "bsonType": "Array",
+          "path": "movement",
+          "count": 5,
+          "types": [
+            {
+              "name": "String",
+              "bsonType": "String",
+              "path": "movement",
+              "count": 10,
+              "values": [
+                "move1",
+                "move2",
+                "move1",
+                "move2",
+                "move3",
+                "move4",
+                "move1",
+                "move2",
+                "move1",
+                "move2"
+              ],
+              "total_count": 0,
+              "probability": 0.625,
+              "unique": 4,
+              "has_duplicates": true
+            },
+            {
+              "name": "Null",
+              "bsonType": "Null",
+              "path": "movement",
+              "count": 6,
+              "total_count": 0,
+              "probability": 0.375,
+              "unique": 1,
+              "has_duplicates": true
+            }
+          ],
+          "lengths": [
+            2,
+            6,
+            4,
+            2,
+            2
+          ],
+          "total_count": 16,
+          "probability": 1,
+          "average_length": 3.2
+        }
+      ],
+      "total_count": 5,
+      "type": "Array",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "muscleCircumference",
+      "path": "muscleCircumference",
+      "count": 5,
+      "types": [
+        {
+          "name": "Array",
+          "bsonType": "Array",
+          "path": "muscleCircumference",
+          "count": 5,
+          "types": [
+            {
+              "name": "Double",
+              "bsonType": "Double",
+              "path": "muscleCircumference",
+              "count": 10,
+              "values": [
+                23.100000381469727,
+                25.299999237060547,
+                23.100000381469727,
+                25.299999237060547,
+                21,
+                11,
+                23.100000381469727,
+                25.299999237060547,
+                23.100000381469727,
+                25.299999237060547
+              ],
+              "total_count": 0,
+              "probability": 0.7692307692307693,
+              "unique": 4,
+              "has_duplicates": true
+            },
+            {
+              "name": "Null",
+              "bsonType": "Null",
+              "path": "muscleCircumference",
+              "count": 3,
+              "total_count": 0,
+              "probability": 0.23076923076923078,
+              "unique": 1,
+              "has_duplicates": true
+            }
+          ],
+          "lengths": [
+            2,
+            3,
+            4,
+            2,
+            2
+          ],
+          "total_count": 13,
+          "probability": 1,
+          "average_length": 2.6
+        }
+      ],
+      "total_count": 5,
+      "type": "Array",
+      "has_duplicates": false,
+      "probability": 1
+    },
+    {
+      "name": "patientIdentifier",
+      "path": "patientIdentifier",
+      "count": 5,
+      "types": [
+        {
+          "name": "String",
+          "bsonType": "String",
+          "path": "patientIdentifier",
+          "count": 5,
+          "values": [
+            "8387236824952696165",
+            "549665952519473900909172",
+            "470185963367",
+            "32492137962827623",
+            "32492137962827623"
+          ],
+          "total_count": 0,
+          "probability": 1,
+          "unique": 4,
+          "has_duplicates": true
+        }
+      ],
+      "total_count": 5,
+      "type": "String",
+      "has_duplicates": true,
+      "probability": 1
+    },
+    {
+      "name": "symptoms",
+      "path": "symptoms",
+      "count": 5,
+      "types": [
+        {
+          "name": "Array",
+          "bsonType": "Array",
+          "path": "symptoms",
+          "count": 5,
+          "types": [
+            {
+              "name": "String",
+              "bsonType": "String",
+              "path": "symptoms",
+              "count": 13,
+              "values": [
+                "some",
+                "symptome",
+                "some",
+                "symptoms",
+                "to",
+                "have",
+                "a",
+                "close",
+                "look",
+                "some",
+                "symptome",
+                "some",
+                "symptome"
+              ],
+              "total_count": 0,
+              "probability": 0.52,
+              "unique": 8,
+              "has_duplicates": true
+            },
+            {
+              "name": "Null",
+              "bsonType": "Null",
+              "path": "symptoms",
+              "count": 12,
+              "total_count": 0,
+              "probability": 0.48,
+              "unique": 1,
+              "has_duplicates": true
+            }
+          ],
+          "lengths": [
+            2,
+            12,
+            7,
+            2,
+            2
+          ],
+          "total_count": 25,
+          "probability": 1,
+          "average_length": 5
+        }
+      ],
+      "total_count": 5,
+      "type": "Array",
+      "has_duplicates": false,
+      "probability": 1
+    }
+  ],
+  "count": 5
+}

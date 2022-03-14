@@ -1,0 +1,50 @@
+<resources>
+    <!-- all project -->
+    <dimen name="all_padding">8dp</dimen>
+    <dimen name="all_border">2dp</dimen>
+    <dimen name="all_clip_roundedcornershape">4dp</dimen>
+    <dimen name="all_font_size_txt">25sp</dimen>
+
+    <!-- Mainactivity -->
+    <dimen name="size_mainactivity_btn_logout">30dp</dimen>
+    <dimen name="width_mainactivity_navrail">250dp</dimen>
+    <dimen name="size_mainactivity_navrail_icon">40dp</dimen>
+    <dimen name="padding_mainactivity_patientlistitem">4dp</dimen>
+    <dimen name="padding_background_mainactivity_patientlistitem">4dp</dimen>
+    <dimen name="shape_mainactivity_patientlistitem">10dp</dimen>
+    <dimen name="size_surface_mainactivity_patientlistitem">60dp</dimen>
+    <dimen name="padding_start_mainactivity_spacer_patientlistitem">6dp</dimen>
+    <dimen name="size_mainactivity_icon_searchview">25dp</dimen>
+    <dimen name="padding_mainactivity_icon_searchview">15dp</dimen>
+    <dimen name="padding_mainactivity_searchview">4dp</dimen>
+    <dimen name="font_size_txt_app_name">40sp</dimen>
+    <dimen name="font_size_txt_name">20sp</dimen>
+    <dimen name="font_size_placeholder_search">20sp</dimen>
+    <!-- Dashboard -->
+    <dimen name="all_padding_small_dashboard">2dp</dimen>
+    <dimen name="size_dashboard_icon">50dp</dimen>
+    <dimen name="padding_background_dashboard_chartscard">4dp</dimen>
+    <dimen name="size_image_dashboard_chartscard">35dp</dimen>
+    <dimen name="bottom_padding_space_dashboard_charts_card">5dp</dimen>
+    <dimen name="space_column_dashboard_athoresecard">5dp</dimen>
+    <dimen name="padding_row_dashboard_body_mapping_card">10dp</dimen>
+    <dimen name="size_icon_dashboard_body_mapping_card">30dp</dimen>
+    <dimen name="space_row_dashboard_body_mapping_card">10dp</dimen>
+    <dimen name="padding_column_dashboard_examination_card">10dp</dimen>
+    <dimen name="padding_vertical_arrangement_dashboard_notice_card">2dp</dimen>
+    <dimen name="offset_edit_icon_dashboard_notice_card">10dp</dimen>
+    <dimen name="offset_delete_icon_dashboard_notice_card">1dp</dimen>
+    <dimen name="offset_clear_icon_dashboard_notice_card">2dp</dimen>
+    <dimen name="size_icon_dashboard_notice_card">30dp</dimen>
+    <dimen name="size_surface_dashboard_owner_card">90dp</dimen>
+    <dimen name="padding_row_dashboard_all">14dp</dimen>
+    <dimen name="size_surface_dashboard_profile_card">90dp</dimen>
+    <dimen name="rounded_corner_shape_dashboard_profile_card">10dp</dimen>
+    <dimen name="size_image_dashboard_profile_card">30dp</dimen>
+    <dimen name="all_font_size_txt_dashboard_small">20sp</dimen>
+    <dimen name="font_size_txt_dashboard">30sp</dimen>
+    <!-- Bodymapping -->
+    <dimen name="size_bodymap_download">40dp</dimen>
+    <dimen name="size_bodymap_draggable_pain">30dp</dimen>
+    <dimen name="size_bodymap_draggable_tension">20dp</dimen>
+</resources>

@@ -1,0 +1,40 @@
+image: jangrewe/gitlab-ci-android
+
+before_script:
+  - cd src/
+  - export GRADLE_USER_HOME=$(pwd)/.gradle
+  - chmod +x ./gradlew
+
+cache:
+  key: ${CI_PROJECT_ID}
+  paths:
+    - .gradle/
+
+stages:
+  - build
+  - test
+
+build:
+  stage: build
+  script:
+    - ./gradlew assembleDebug
+  artifacts:
+    paths:
+      - app/build/outputs/
+
+lint:
+  stage: build
+  script:
+    - ./gradlew -Pci --console=plain :app:lintDebug -PbuildDir=lint
+
+test:
+  stage: test
+  script:
+    - ./gradlew -Pci --console=plain :app:testDebug
+
+metrics:
+  script:
+    - echo 'metric_name metric_value' > metrics.txt
+  artifacts:
+    reports:
+      metrics: metrics.txt

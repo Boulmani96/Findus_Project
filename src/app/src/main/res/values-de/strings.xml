@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Findus</string>
+
+    <string name="txt_greeting">Guten Tag %$s</string>
+
+    <!-- oldMainActivity -->
+    <string name="oldmainactivity_label_patient">Patient</string>
+    <string name="oldmainactivity_label_notes">Anmerkungen</string>
+    <string name="oldmainactivity_label_weight">Gewicht</string>
+    <string name="oldmainactivity_label_name">Name</string>
+    <string name="oldmainactivity_btn_change_load">Ändern / Laden</string>
+    <string name="oldmainactivity_btn_add_image">Bild hinzufügen</string>
+    <string name="oldmainactivity_btn_save">Speichern </string>
+    <string name="oldmainactivity_label_input_patient_id">Eingabe Patienten-ID</string>
+    <string name="oldmainactivity_btn_delete">Löschen</string>
+    <string name="oldmainactivity_btn_load_patient">Patient laden</string>
+    <string name="oldmainactivity_btn_delete_patient">Patient löschen</string>
+    <string name="oldmainactivity_btn_new_patient">Neuer Patient</string>
+
+    <!-- MainActivity -->
+    <string name="mainactivitiy_btn_logout">Abmelden</string>
+    <string name="mainactivitiy_btn_nav_dashboard">Dashboard</string>
+    <string name="mainactivitiy_btn_nav_bodymapping">Bodymapping</string>
+    <string name="mainactivitiy_btn_nav_anamnese">Anamnese</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_btn_general">Allgemein</string>
+    <string name="dashboard_btn_heart">Herz</string>
+    <string name="dashboard_btn_cold">Kalt</string>
+    <string name="dashboard_btn_fracture">Fraktur</string>
+    <string name="dashboard_btn_headache">Kopfschmerzen</string>
+    <string name="mainactivitiy_image_topbar">TopBarIcon</string>
+    <string name="mainactivitiy_placeholder_searchtxt">Patient suchen</string>
+    <string name="mainactivitiy_txt_toast_patientnofound">Kein Treffer !</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_txt_home">Dashboard</string>
+    <string name="dashboard_txt_athrose">Athrose</string>
+    <string name="dashboard_txt_examination">Untersuchung</string>
+    <string name="dashboard_txt_operation">Operation</string>
+    <string name="dashboard_btn_add_notes">Notizen hinzufügen</string>
+    <string name="dashboard_placeholder_enter_notes">Geben Sie Ihre Notizen ein</string>
+    <string name="dashboard_txt_charts_title_data_muscle">Daten Muskel</string>
+    <string name="dashboard_txt_charts_title_data_weight">Daten Gewicht</string>
+    <string name="dashboard_description_search">Suche</string>
+    <string name="dashboard_description_close">Schließen</string>
+    <string name="dashboard_description_edit">Bearbeiten</string>
+    <string name="dashboard_description_delete">Löschen</string>
+    <string name="dashboard_description_home">Home</string>
+
+</resources>

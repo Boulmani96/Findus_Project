@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:xliff="urn:oasis:names:tc:xliff:document:1.2">
+    <string name="app_name">Findus</string>
+
+    <string name="txt_greeting">Hello,
+        <xliff:g name="name" example="Joe">%s</xliff:g>
+    </string>
+
+    <!-- oldMainActivity -->
+    <string name="oldmainactivity_label_patient">Patient</string>
+    <string name="oldmainactivity_label_notes">Notes</string>
+    <string name="oldmainactivity_label_weight">Weight</string>
+    <string name="oldmainactivity_label_name">Name</string>
+    <string name="oldmainactivity_btn_change_load">Change / Load</string>
+    <string name="oldmainactivity_btn_add_image">Add Image</string>
+    <string name="oldmainactivity_btn_save">Save</string>
+    <string name="oldmainactivity_label_input_patient_id">Input Patient ID</string>
+    <string name="oldmainactivity_btn_delete">Delete</string>
+    <string name="oldmainactivity_btn_load_patient">Load Patient</string>
+    <string name="oldmainactivity_btn_delete_patient">Delete Patient</string>
+    <string name="oldmainactivity_btn_new_patient">New Patient</string>
+
+    <!-- MainActivity -->
+    <string name="mainactivitiy_btn_logout">Logout</string>
+    <string name="mainactivitiy_btn_nav_dashboard">Dashboard</string>
+    <string name="mainactivitiy_btn_nav_bodymapping">Bodymapping</string>
+    <string name="mainactivitiy_btn_nav_anamnese">Anamnese</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_btn_general">General</string>
+    <string name="dashboard_btn_heart">Heart</string>
+    <string name="dashboard_btn_cold">Cold</string>
+    <string name="dashboard_btn_fracture">Fracture</string>
+    <string name="dashboard_btn_headache">Headache</string>
+    <string name="mainactivitiy_image_topbar">TopBarIcon</string>
+    <string name="mainactivitiy_placeholder_searchtxt">Search Patient</string>
+    <string name="mainactivitiy_txt_toast_patientnofound">No match !</string>
+
+    <!-- Dashboard -->
+    <string name="dashboard_txt_home">Dashboard</string>
+    <string name="dashboard_txt_athrose">Athrose</string>
+    <string name="dashboard_txt_examination">Examination</string>
+    <string name="dashboard_txt_operation">Operation</string>
+    <string name="dashboard_btn_add_notes">Add Notes</string>
+    <string name="dashboard_placeholder_enter_notes">Enter Your Notes</string>
+    <string name="dashboard_txt_charts_title_data_muscle">Data Muscle</string>
+    <string name="dashboard_txt_charts_title_data_weight">Data Weight</string>
+    <string name="dashboard_description_search">Search</string>
+    <string name="dashboard_description_close">Close</string>
+    <string name="dashboard_description_edit">Edit</string>
+    <string name="dashboard_description_delete">Delete</string>
+    <string name="dashboard_description_home">Home</string>
+
+</resources>
